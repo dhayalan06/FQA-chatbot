@@ -1,0 +1,5 @@
+{
+  "name": "FAQ Intelligent Bot",
+  "description": "A smart FAQ chatbot that uses natural language processing and cosine similarity to match user questions with the best answers, featuring a fallback to Google Gemini for general queries.",
+  "requestFramePermissions": []
+}
