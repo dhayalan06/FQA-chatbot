@@ -1,20 +1,22 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+FAQ Chatbot 🤖 📌 Overview This project is part of my CodeAlpha Internship (Task 2). I built a FAQ Chatbot using AI techniques that can instantly answer customer service–style questions.
 
-# Run and deploy your AI Studio app
+⚙️ Features
 
-This contains everything you need to run your app locally.
+Collects FAQs related to a topic or product (questions and answers).
+Preprocesses text using simple NLP techniques (tokenization, cleaning, etc.).
+Matches user questions with the most similar FAQ using TF‑IDF + Cosine Similarity.
+Displays the best matching answer as a chatbot response.
+Provides a simple chat‑style UI built with Streamlit.
+Easy to extend with multiple FAQ topics (Customer Service, Banking, Education, Healthcare, etc.).
+🛠️ Tech Stack
 
-View your app in AI Studio : https://ai.Studio/apps/drive/19GAQevR0ZtwBGMWJzR8bakrkIO2yg3q1
+GitHub Repository: FAQ Chatbot
+Internship: CodeAlpha
+📌 Internship Task Description Task 2: Chatbot for FAQs
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Collect FAQs related to a topic or product (questions and answers).
+Preprocess text using NLP libraries (tokenize, clean, etc.).
+Match user questions with the most similar FAQ using cosine similarity or intent matching.
+Display the best matching answer as a chatbot response.
+Create a simple chat UI for user interaction.
+🏷️ Tags #AI #Chatbot #Python #Streamlit #Internship #CodeAlpha #MachineLearning #FAQBot #GitHub
